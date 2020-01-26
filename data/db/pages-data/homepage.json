@@ -1,0 +1,20 @@
+{
+    "id": "lkjdkljr34ur039uroishkdflkhi04r0",
+    "name": "HomePage",
+    "title": "My great website",
+    "url": "/",
+    "data": [
+        {
+            "type": "Header",
+            "props": {
+                "title": "Howdy there! 🤯"
+            }
+        },
+        {
+            "type": "Footer",
+            "props": {
+                "title": "Bye bye! 🤯"
+            }
+        }
+    ]
+}

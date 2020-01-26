@@ -1,0 +1,5 @@
+In this folder, you'll find the HTML, CSS and JS needed by each component instance.
+
+A component instance is a field in a page with the props that are set on it.
+
+Basically, it is the chunk of code that is going to be incorporated in the HTML page once built.

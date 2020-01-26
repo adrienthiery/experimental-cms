@@ -1,0 +1,20 @@
+{
+    "id": "lkjdkljr34ur039uroishjdflkhi04r0",
+    "name": "Careers",
+    "title": "See my careers",
+    "url": "/careers",
+    "data": [
+        {
+            "type": "Header",
+            "props": {
+                "title": "Yo! 🌴"
+            }
+        },
+        {
+            "type": "Footer",
+            "props": {
+                "title": "Bla bla! 🌲"
+            }
+        }
+    ]
+}
