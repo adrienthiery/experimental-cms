@@ -1,12 +1,13 @@
 import fs from 'fs';
+import storage from '../storage';
 
 async function getComponentsList(req, res) {
     // List components/ folder
-    const files = await fs.promises.readdir('components/');
+    const files = await storage.list(`${appRoot}/components/`);
     const components = files
         .filter((item) => item !== 'external')
         .map((filename) => {
-            const component = require(`../../components/${filename}`);
+            const component = require(`${appRoot}/components/${filename}`);
             let props;
 
             const matchProps = component.default.toString().match(/props\.([a-zA-z]*)/);

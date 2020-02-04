@@ -1,0 +1,24 @@
+{
+    "id": "properties",
+    "name": "Site Properties",
+    "title": "Properties",
+    "url": "/settings",
+    "unique": true,
+    "data": [
+        {
+            "type": "string",
+            "name": "Title",
+            "required": true
+        },
+        {
+            "type": "media",
+            "name": "favicon",
+            "required": false
+        },
+        {
+            "type": "boolean",
+            "name": "published",
+            "required": true
+        }
+    ]
+}

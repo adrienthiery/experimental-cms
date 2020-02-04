@@ -1,0 +1,18 @@
+{
+    "id": "item",
+    "name": "Grocery item",
+    "title": "Item",
+    "unique": false,
+    "data": [
+        {
+            "type": "string",
+            "name": "name",
+            "required": true
+        },
+        {
+            "type": "number",
+            "name": "quantity",
+            "required": true
+        }
+    ]
+}

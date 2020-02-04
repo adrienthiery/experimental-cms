@@ -1,0 +1,7 @@
+{
+    "id": "properties",
+    "model": "properties",
+    "Title": "My great site",
+    "favicon": "/dist/favicon.png",
+    "published": true
+}
